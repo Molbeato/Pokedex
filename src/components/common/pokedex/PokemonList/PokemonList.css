@@ -1,0 +1,16 @@
+.pokemons-card_container{
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:   23% 23% 23% ; 
+    width: 100%;
+    gap: 5rem;
+    margin: 20px;
+    padding: 10px;
+    list-style-type: none;  
+}
+
+.pokemons-cards{
+    height: 500px;
+}
+

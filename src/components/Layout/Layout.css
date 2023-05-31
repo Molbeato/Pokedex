@@ -1,0 +1,14 @@
+.logout_btn{
+    display: flex;
+    border: transparent;
+    background-color:  #D93F3F;
+   
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 95%;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,22 @@
+.pages_container{
+    margin: 50px;
+}
+
+.previous_btn{
+    font-size: 1rem;
+    margin-right: 10px;
+    border: none;
+}
+
+.page-number{
+    margin: 3px 3px;
+    border: none;
+    border-radius: 40%;
+    font-size: 1rem;
+}
+
+.next_btn{
+    font-size: 1rem;
+    margin-left: 10px;
+    border: none;
+}

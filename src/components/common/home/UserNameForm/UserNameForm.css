@@ -1,0 +1,16 @@
+.input-name{
+    width: 17rem;
+    height: 2rem;
+    font-size: 1.5vh;
+}
+
+.home-begin_btn{
+    width: 5rem;
+    height: 2rem;
+    left: 841.79px;
+    top: 595px;
+    color: white;
+    background: #D93F3F;
+    border: none;
+    margin-left: 3px;
+}
