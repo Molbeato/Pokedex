@@ -49,7 +49,7 @@ const PokemonCard = ({pokemonId}) => {
           <ul className="pokemon-card_list">
             {stats.map((stat) => (
               <li key={stat.name} className="pokemon-card_stats">
-                <span style={{width: stat.value + 100}} className={`pokemon-card__stat ${pokemon.types[0]}`}>{stat.name.toUpperCase()}</span>
+                <span style={{width: stat.value + 60}} className={`pokemon-card__stat ${pokemon.types[0]}`}>{stat.name.toUpperCase()}</span>
                 <span className="pokemon-card__stat-value">{stat.value}</span>
               </li>
             ))}

@@ -129,7 +129,7 @@
     background-image: linear-gradient(90deg, #f6ef1e4d , #d2812447, rgba(227, 49, 49, 0.294));
     padding: 5px;
     border-radius: 5px;
-
+    max-width: 200px;
 }
 
 .pokemon-card__stat-value{
