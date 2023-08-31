@@ -11,7 +11,7 @@ const Pokedex = () => {
     const { userName }= useContext(UserNameContext);
 
   return (
-    <section>
+    <section className="main-content">
         <p className="pokedex-message">
             Welcome 
             <span className="pokedex-user"> {userName}! </span>

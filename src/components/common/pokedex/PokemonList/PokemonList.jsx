@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import "./PokemonList.css"
 
 export const PokemonList = ({pokemons}) => {
-    const [pokemonsPerPage, setPokemonsPerPage] = useState(15);
+    const [pokemonsPerPage, setPokemonsPerPage] = useState(60);
     const [currentPage, totalPages, pokemonsSlice, changePageTo] = usePagination(pokemons, pokemonsPerPage)
 
   return (

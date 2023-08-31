@@ -5,7 +5,9 @@
 }
 
 body{
-  width: 100%
+  width: 100%;
+  background-color: rgb(237, 235, 235);
+  overflow-x: hidden;
 }
 
 #root{

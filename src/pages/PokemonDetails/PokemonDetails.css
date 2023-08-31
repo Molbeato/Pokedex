@@ -12,10 +12,10 @@
 
 .pokemon-details_img{
     
-    width: 30vw;
-    height: 30vw;
+    width: 15vw;
+    height: 15vw;
     margin: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .pokemon-details_img img{
@@ -33,23 +33,32 @@
 }
 
 .pokemon-detail_name{
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 2rem;
 }
 
 .pokemon-moves_container{
   display: flex;
   height: 20vw;
-  width: 1000px;
+  width: 66%;
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.205);
 }
 
 .pokemon-moves{
     
-
     display: inline-grid;
     padding: 10px;
     margin: 7px;
     list-style-type: none;
     font-size: 1rem;
-    background-color: azure;
+    background-color: rgb(219, 227, 227);
     border-radius: 5px;
+}
+
+.pokemon-abilities_container{
+    display: flex;
+    gap:  20px;
 }

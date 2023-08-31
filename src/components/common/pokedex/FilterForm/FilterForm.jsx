@@ -58,7 +58,7 @@ const FilterForm = ({ nameInitial, typeInitial  }) => {
                     key={type.id}
                     value={type.id}
                     >
-                        {type.name}
+                        {type.name.charAt([0]).toUpperCase() + type.name.replace(type.name[0], "")}
                     </option>
                 ))}
             </select>
