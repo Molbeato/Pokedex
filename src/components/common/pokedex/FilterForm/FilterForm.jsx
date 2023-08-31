@@ -36,7 +36,7 @@ const FilterForm = ({ nameInitial, typeInitial  }) => {
     }, [typeInitial]);
 
   return (
-    <Form className="form">
+    <Form className="form" >
         <div className="form-input_container">
             <input 
             value={pokemonName}
